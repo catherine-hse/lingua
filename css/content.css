@@ -198,6 +198,7 @@ marquee {
 
 .circle-line {
   position: relative;
+  padding: 0 auto;
 }
 
 .circle {
@@ -288,6 +289,10 @@ marquee {
   margin-top: 750px;
 }
 
+.blink-block .text-block {
+  padding: 0 20px;
+}
+
 .blink-block .lines {
   position: absolute;
   rotate: -90deg;
@@ -312,6 +317,7 @@ marquee {
   position: relative;
   height: 500px;
   overflow: hidden;
+  padding: 0 20px 0 -20px;
 }
 
 .blink-block .line-block {
